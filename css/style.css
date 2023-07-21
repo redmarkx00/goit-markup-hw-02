@@ -181,7 +181,7 @@ body{
     text-decoration: none;
 }
 
-.project .name{
+.project .project-name{
     color: var(--navyblue);
     font-weight: 700;
     font-size: 18px;
@@ -189,7 +189,7 @@ body{
     letter-spacing: 0.06em;
 }
 
-.project .type{
+.project .project-type{
     color: var(--slate);
     font-weight: 400;
     font-size: 16px;
