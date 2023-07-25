@@ -11,7 +11,7 @@ body{
     color: var(--slate);
     font-family: 'Roboto', 'sans-serif';
     font-size: 16px;
-    letter-spacing: 0.32em;
+    letter-spacing: 0.32px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -25,28 +25,23 @@ body{
 .logo-link{
     font-size: 18px;
     text-decoration: none;
-}
-
-.logo-link > span{
-    font-size: 18px;
-}
-
-.logo, .studio{
-    color: var(--iris);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     line-height: 1.2;
     display: inline-block;
+    letter-spacing: 0.54px;
+}
+
+.logo, .studio{
+    color: var(--iris);
 }
 
 .studio{
     color: var(--navyblue);
-    font-weight: 800;
 }
 
 .studio2 {
     color: var(--cloud);
-    font-weight: 800;
 }
 
 .list{
@@ -62,8 +57,8 @@ body{
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contacts-menu .item:hover,
-.contacts-menu .item:focus{
+.contacts-menu .contacts-link:hover,
+.contacts-menu .contacts-link:focus{
     color: var(--iris)
 }
 
@@ -81,26 +76,27 @@ body{
     color: var(--cloud);
     font-size: 56px;
     border-radius: 4px;
-    line-height: 1.87;
+    line-height: 60px;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 1.12px;
 }
 
 .button{
     font-family: inherit;
     border-color: transparent;
     border: none;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03px;
     cursor: pointer;
 }
 
 .button.primary{
     background-color: var(--iris);
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
 }
 
 .button.primary:hover,
@@ -109,15 +105,10 @@ body{
 }
 
 .benefits .title{
-    font-weight: 700;
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
-}
-
-.benefits .description{
-    line-height: 1.71;
 }
 
 .bg-team{
@@ -130,16 +121,12 @@ body{
     color: var(--navyblue);
     line-height: 40px;
     text-align: center;
+    letter-spacing: 0.72px;
 }
 
 .team .team-name,
 .team .team-position{
     text-align: center;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4em;
 }
 
 .team .team-name{
@@ -147,11 +134,7 @@ body{
     font-weight: 500;
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: 0.4em;
-}
-
-.team-position{
-    color: var(--slate);
+    letter-spacing: 0.4px;
 }
 
 .bg-footer{
@@ -170,7 +153,7 @@ body{
     border-radius: 4px;
     border: 1px solid var(--cornflower, #E7E9FC);
     line-height: 24px;
-    letter-spacing: 0.64em;
+    letter-spacing: 0.64px;
 }
 
 .button.filter:hover,
@@ -188,15 +171,11 @@ body{
 
 .project .project-name{
     color: var(--navyblue);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.4px;
 }
 
 .project .project-type{
     color: var(--slate);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
 }
